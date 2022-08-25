@@ -9,7 +9,7 @@ def shortest_arrang(n):
       if(sum(arrangments[j]) == n): return arrangments[j]
   return [-1]
 
-# ALTERNATIVES
+# ----------------------ALTERNATIVES----------------------
 def shortest_arrang(n):
     # For odd n, we can always construct n with 2 consecutive integers.
     if n % 2 == 1:
